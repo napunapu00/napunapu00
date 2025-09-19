@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Galeri</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* videolar arası boşluk */
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    video {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .section {
+      margin-bottom: 60px; /* bölüm arası boşluk */
+    }
+  </style>
+</head>
+<body>
+  <h1>Video Galeri 🎬</h1>
+
+  <!-- 1. Bölüm -->
+  <div class="video-container section">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+    </video>
+    <video controls>
+      <source src="video2.mp4" type="video/mp4">
+    </video>
+    <!-- Buraya 15 videoya kadar ekle -->
+  </div>
+
+  <!-- 2. Bölüm -->
+  <div class="video-container section">
+    <video controls>
+      <source src="video16.mp4" type="video/mp4">
+    </video>
+    <video controls>
+      <source src="video17.mp4" type="video/mp4">
+    </video>
+    <!-- Buraya yine 15 tane -->
+  </div>
+
+  <!-- 3. Bölüm -->
+  <div class="video-container section">
+    <video controls>
+      <source src="video31.mp4" type="video/mp4">
+    </video>
+    <video controls>
+      <source src="video32.mp4" type="video/mp4">
+    </video>
+    <!-- Buraya yine 15 tane -->
+  </div>
+</body>
+</html>
